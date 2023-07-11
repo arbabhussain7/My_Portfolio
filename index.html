@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/0164edc8e5.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+
 </head>
 
 <body>
@@ -20,25 +22,26 @@
             <div class="left"> Arbab_hussain</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Skill</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact me</a></li>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#thirdsection">Skill</a></li>
+                    <li><a href="#fouthsection">Projects</a></li>
+                    <li><a href="#fifthsection">Contact </a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstsection">
+        <section id="firstsection">
             <div class="leftsection">
                 Hi! I'M <span class="name"> Arbab Hussain</span>
                 <br>
                 I am a
                 <span id="element"></span>
                 <div class="button">
-                    <button class="btn">Resume</button>
-                    <button class="btn">Github Visit</button>
+                    <button class="btn"><a
+                            href="https://drive.google.com/file/d/1A5_QN7P1w9ePVL6o6aSmD8I6mGQYOUo8/view?usp=drivesdk">Resume</a></button>
+                    <button class="btn"><a href="https://github.com/arbabhussain7">Github Visit</a></button>
                 </div>
             </div>
             <div class="rightsection">
@@ -46,9 +49,9 @@
             </div>
 
         </section><br>
-        <hr>
+        <hr class="first">
 
-        <section class="secondsection ">
+        <section id="secondsection ">
             <div id="about">
                 <div class="container">
 
@@ -61,26 +64,29 @@
                                 <hr>
                             </h1>
                             <p class="paraghaph">
-                                I am a Junior Blockchain Developer who is passionate about revolutionizing the world
-                                through Blockchain Technology. With
-                                a solid background in Computer Science, I have been honing this skills in writing smart
-                                contracts with Solidity, a
-                                programming language used in the Ethereum blockchain.
+                                I am determined to pursue a career as a MERN Stack developer. I am captivated by the
+                                dynamic and
+                                versatile nature of the MERN stack, which encompasses MongoDB, Express.js, React, and
+                                Node.js. I am eager to delve into
+                                each component of this technology stack, as they offer tremendous opportunities for
+                                building robust and scalable web
+                                applications.
                                 <br><br>
-
-                                As a junior blockchain developer, I've already worked on a few projects where I've
-                                contributed in writing smart
-                                contracts and deploying them on the Ethereum blockchain. It made me well-versed in using
-                                tools like Truffle, Remix, and
-                                Ganache, which are commonly used in developing and testing smart contracts.
+                                By becoming a MERN Stack developer, I aim to leverage my programming skills and
+                                creativity to develop modern and
+                                efficient web solutions. I am particularly excited about working with MongoDB, a
+                                flexible NoSQL database, and harnessing
+                                its capabilities for seamless data storage and retrieval.
                                 <br><br>
+                                I also look forward to mastering Express.js, which will empower me to build secure and
+                                efficient server-side
+                                applications and APIs using Node.js. With React, I will be able to create captivating
+                                user interfaces, delivering an
+                                exceptional user experience through dynamic and interactive components.
 
-                                But I am not content with just the basics. I am eager to learn more about Blockchain and
-                                Web3.0 technologies. I am
-                                looking for the opportunity to work with a team of experienced blockchain developers and
-                                contribute to real-world
-                                blockchain projects.
-
+                            <p class="paraghaph" style="color: rgb(207, 204, 2);"> Available for Part-time, Remote and
+                                Freelance work!
+                            </p>
                         </div>
 
                     </div>
@@ -88,7 +94,7 @@
             </div>
 
         </section>
-        <hr>
+        <hr class="second">
         <section id="thirdsection">
             <div class="container1">
                 <h1 class="about2">My Skill
@@ -120,14 +126,15 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
-        
+
+        <hr class="third">
         <section id="fouthsection">
             <div class="container2">
-                <hr>
                 <div class="div">
-                <h1 class="about-1">Projects </h1>
+                    <h1 class="about-1">Projects </h1>
+
                 </div>
                 <div class="project">
                     <div class="layer">
@@ -155,15 +162,15 @@
                             Student Mangement System <i class="fa-solid fa-up-right-from-square"></i>
                         </h3>
                         <p>Made with C++</p>
-                        <a href="#"></a>
+                        <a href="https://github.com/arbabhussain7/Student-Management-System"></a>
                     </div>
-                   
-                    
+
+
                 </div>
             </div>
             <div>
-                <a href="#" class="btn2" > See More</a>
-                
+                <a href="https://github.com/arbabhussain7" class="btn2"> See More</a>
+
             </div>
 
 
@@ -173,37 +180,51 @@
 
 
         </section>
-<hr>
-<section class="fifthsection">
-<div class="container">
-    <div class="row">
-        <div class="row-left">
-            <h2 class="about3">Contact Us</h2>
-            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
-            <p><i class="fa-solid fa-square-phone"></i>+923411463601</p>
-            <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <hr class="forth">
+        <section id="fifthsection">
+            <div class="container3">
+                <div class="row">
+                    <div class="row-left">
+                        <h2 class="about3">Contact Us</h2>
+                        <div class="info">
+
+                            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>arbabhussain414@gmail.com</p>
+                            <br>
+                            <p><i class="fa-solid fa-square-phone"></i>+923411463601</p>
+                        </div>
+                        <div class="social-icon">
+                            <a target="_blank" onclick="urlclicked()" href="https://wa.me/923411463601"><i
+                                    class="fa fa-whatsapp"></i></a>
+                            <a href="https://www.facebook.com/muhammad.arbab.90813236?mibextid=ZbWKwL"
+                                target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/muhammad_arbab788/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/Arbab_Hussain7" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/arbab-hussain-1891191b9/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="row-right">
+                        <form>
+
+                            <input type="text" name="Name" placeholder="Enter  Your Name" required>
+                            <input type="email" name="Email" placeholder="Enter  Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Type Your Message"></textarea>
+                            <button type="submit" class=" btn4"> Submit Now</button>
+                        </form>
+                    </div>
+
+                </div>
             </div>
-        </div>
-        <div class="row-right">
-            <form >
 
-                <input type="text" name="Name"  placeholder="Enter  Your Name" required>
-                <input type="email" name="Email"  placeholder="Enter  Your Email" required>
-           <textarea name="message"rows="6" placeholder="Type Your Message" ></textarea>
-            <button type="submit" class=" btn4"> Submit Now</button>   
-        </form>
-        </div>
+            <div class="copyright">
+                <p>
+                    Copyright © 2023 | All rights Reserved by <strong class="cyp"> Arbab Hussain</strong>
+                </p>
+            </div>
 
-    </div>
-</div>
-
-
-
-</section>
+        </section>
 
 
 
@@ -211,9 +232,21 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: [' Software Engineer!!', '<b>MERN<b> Stack!!', ' UI/UX Designer!!', 'Devops Engineer'],
+            strings: [' Software Engineer!!', 'web developer!!', ' UI/UX Designer!!', '<b>App</b> Developer!!'],
             typeSpeed: 80,
+            loop: true
         });
+
+        //Typing animation Script
+        // var typed = new Typed(".typing", {
+        //     strings: ["Blockchain Developer", "Web developer", "Open-Source Contributer ", "Software Engineer"],
+        //     typeSpeed: 65,
+        //     backSpeed: 40,
+        //     loop: true
+        // })
+
+        const allElements = document.querySelectorAll('.animated-text');
+
     </script>
 </body>
 
